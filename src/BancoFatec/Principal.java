@@ -35,13 +35,7 @@ public class Principal {
 				break;
 			}
 			case 2: {
-				System.out.println("Insira o valor a ser sacado: ");
-                valor = entrada.nextDouble();
-                if (c.sacar(valor)){
-                    System.out.println("Saque Efetuado.");
-                }else{
-                    System.out.println("Erro no Saque.");
-                }
+
                 break;
 			}
 			case 3: {
